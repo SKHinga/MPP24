@@ -12,11 +12,12 @@
   display: flex;
 }
 .bar {
-  background-image: linear-gradient(to top left,#f6b400 75%, #e1ebe6 10%);
+  background-image: linear-gradient(to top left,#f6b400 65%, #e1ebe6 50%);
   background-size: cover;
   object-fit: contain;
   width: 100%;
   margin: 5px;
+  position: relative;
 }
 .bar ul li a img {
   width: 25px;
@@ -28,8 +29,7 @@ padding: 35px 0;
 justify-content: space-between;
 display: inline-block;
 width: 130px;
-position: relative;
-background-color: transparent;
+background-image: transparent;
 }
 .bar ul li::after {
   content: '';
@@ -55,7 +55,7 @@ background-color: transparent;
   position: absolute;
   cursor: pointer;
   height: 80%;
-  background-image: linear-gradient(to top left,#f6b400 50%, #e1ebe6 10%);
+  background-color: transparent;
 }
 .logo {
   margin-left: 10px;
@@ -70,7 +70,7 @@ margin-top: 40px;
 }
 .span {
   color: #f6b400;
-  ont-family: 'Lobster';
+  font-family: 'Lobster';
   font-size: 30px;
 }
 .nav h4{
@@ -217,9 +217,8 @@ button {
   border: 1px solid none;
   background-color: rgb(196, 191, 191);
   border-radius: 10px;
-  margin-left: 90px;
+  margin-left: 80px;
   margin-top: 15px;
-  background-color: white;
 }
 .ksh p {
   font-weight: bolder;
@@ -257,9 +256,6 @@ background-color: white;
 .shop {
   background-color: white;
 }
-.ks {
-  background-color: white;
-}
 .shopping {
   background-color: white;
 }
@@ -274,3 +270,112 @@ background-color: white;
   margin-left: 80px;
   margin-top: 20px;
 }
+.parent {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex
+}
+.parent img {
+  width: 200px;
+  margin: auto;
+}
+.child h5 {
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  position: relative;
+  top: 30%;
+  left: 5%;
+  text-align: left;
+}
+.decker {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f6b400;
+  font-size: 35px;
+}
+.child p {
+  width: 100%;
+  position: relative;
+  top: 40%;
+  left: 8%;
+  text-align: left;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+#decker {
+  width: 400px;
+  top: 200px;
+}
+#double {
+  width: 400px;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  background-color: transparent;
+}
+.shape {
+  display: flex;
+  
+}
+.circ {
+  background-color: orange;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 350px;
+  border-radius: 60%;
+  left: 55px;
+}
+.cir {
+  background-color: gray;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 350px;
+  border-radius: 60%;
+  left: 65px;
+}
+.cic {
+  background-color: gray;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 350px;
+  border-radius: 60%;
+  left: 75px;
+}
+.arrow {
+  height: 4px;
+  width: 50px;
+  border-radius: 4px;
+  background-color:  orange;
+  top: 340px;
+  left: 150px;
+  position: relative;
+}
+.arrow:after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 20px;
+  background-color: orange;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -1px;
+  bottom: 8px;
+}
+.arrow:before {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 20px;
+  background-color: orange;
+  border-radius: 4px;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: -1px;
+  bottom: -8px;
+}
+
