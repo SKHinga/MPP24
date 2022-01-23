@@ -89,7 +89,7 @@ margin-top: 40px;
   text-align: left;
   font-size: 20px;
 }
-button {
+.button {
   width: 70px;
   padding: 5px 2px 5px 3px;
   align-items: center;
@@ -378,4 +378,80 @@ background-color: white;
   right: -1px;
   bottom: -8px;
 }
-
+.section5 {
+  background-color: #f6b400;
+  position: relative;
+  top: 80px;
+}
+.new {
+  background-color: #f6b400;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex
+}
+.icon {
+  background-color: #f6b400;
+}
+.icon p {
+  width: 100%;
+  position: relative;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  top: 40%;
+  left: 8%;
+  text-align: left;
+  font-size: 50px;
+  background-color: #f6b400;
+}
+.click {
+  background-color: #f6b400;
+  display: flex;
+  align-items: center;
+}
+.ton {
+display: inline-block;
+height: 50px;
+padding: 0;
+background-color: black;
+border: none;
+outline: none;
+position: relative;
+top: 200px;
+left: 30px;
+color: white;
+cursor: pointer;
+}
+.but {
+display: inline-block;
+height: 50px;
+padding: 0;
+background-color: black;
+border: none;
+outline: none;
+position: relative;
+top: 200px;
+left: 180px;
+color: white;
+cursor: pointer;
+}
+.store {
+  background-color: black;
+  color: white;
+  position: absolute;
+  display: block;
+}
+.phone {
+  display: flex;
+  background-color: #f6b400;
+}
+.one {
+  position: absolute;
+  top: 50px;
+  left: 700px;
+}
+.two {
+  position: relative;
+  top: 40px;
+  left: 400px;
+}
