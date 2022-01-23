@@ -490,3 +490,10 @@ cursor: pointer;
   top: -10px;
   left: 93px;
 }
+.right {
+  display: flex;
+}
+.name {
+  position: relative;
+  left: 850px;
+}
