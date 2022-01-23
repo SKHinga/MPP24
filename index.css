@@ -21,6 +21,7 @@
 }
 .bar ul li a img {
   width: 25px;
+  background-color: transparent;
 }
 .bar ul li {
 margin: auto;
@@ -29,6 +30,7 @@ justify-content: space-between;
 display: inline-block;
 width: 130px;
 position: relative;
+background-color: transparent;
 }
 .bar ul li::after {
   content: '';
@@ -44,6 +46,7 @@ position: relative;
 text-decoration: none;
 color: black;
 text-transform: uppercase;
+background-color: transparent;
 }
 .bar ul li:hover:after {
   width: 30%;
@@ -51,7 +54,7 @@ text-transform: uppercase;
 .burger {
   width: 300px;
   cursor: pointer;
-  height: 80%;
+  height: 70%;
   background-image: linear-gradient(to top left,#f6b400 50%, #e1ebe6 10%);
 }
 .logo {
