@@ -14,7 +14,7 @@ Ordering something from the comfort of you home is the current norm. Not only gl
 * place your order
 * make payment and wait for delivery
 ## Known Bugs
-Currently there is an issue with the landing background gradient and the hover effect on the navigation section which I look forward to fixing.
+Currently there is an issue with the landing background gradient which I look forward to fixing.
 ## Technologies Used
 The website was created using HTML and CSS for styling.
 ## Support and contact details
